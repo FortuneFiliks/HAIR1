@@ -27,6 +27,7 @@
     	position : fixed;
     	padding-right :25px;
     	z-index : 1;
+	top : 0;
     }
     nav .nav_links{
         display : flex;
