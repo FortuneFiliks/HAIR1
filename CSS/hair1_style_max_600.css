@@ -16,7 +16,7 @@
     
     
     
-    nav{
+      nav{
     	background : linear-gradient(60deg, #f40808,#19243a,#f40808);
     	height : 80px;
     	width : 100%;
@@ -25,7 +25,6 @@
     	justify-content : space-between;
     	color : #ffffff;
     	position : fixed;
-    	top : 0;
     	padding-right :25px;
     	z-index : 1;
     }
@@ -36,19 +35,20 @@
     nav .icon_image{
         width : 75px;
     	height : 75px;
-        margin-left : 120px;	
+        margin-left : 75px;	
     }
+    
     nav .fa-bars{
     	font-size : 2rem;
     	padding-left :25px;
     }
     
     nav .nav_links a{
-    	font-size : 1rem;
+    	font-size : 1.25rem;
     	color : #ffffff;
     	text-decoration : none;
-    	padding-left : 5px;
-    	padding-right : 5px;
+    	padding-left : 2.5px;
+    	padding-right : 2.5px;
     }
     
     nav .nav_links a:hover{
@@ -59,7 +59,7 @@
         transition-property : box-shadow;
     	transition-duration : 3s;
     	transition-timing-function : linear;
-    }
+    }	
 /***************************************FIRST SECTION************************************/	
     .first_section{
         width : 100%;
