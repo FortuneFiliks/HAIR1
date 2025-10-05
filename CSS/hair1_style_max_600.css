@@ -16,7 +16,7 @@
     
     
     
-      nav{
+    nav{
     	background : linear-gradient(60deg, #f40808,#19243a,#f40808);
     	height : 80px;
     	width : 100%;
@@ -25,9 +25,9 @@
     	justify-content : space-between;
     	color : #ffffff;
     	position : fixed;
+    	top : 0;
     	padding-right :25px;
     	z-index : 1;
-	top : 0;
     }
     nav .nav_links{
         display : flex;
@@ -36,20 +36,19 @@
     nav .icon_image{
         width : 75px;
     	height : 75px;
-        margin-left : 75px;	
+        margin-left : 120px;	
     }
-    
     nav .fa-bars{
     	font-size : 2rem;
     	padding-left :25px;
     }
     
     nav .nav_links a{
-    	font-size : 1.25rem;
+    	font-size : 1rem;
     	color : #ffffff;
     	text-decoration : none;
-    	padding-left : 2.5px;
-    	padding-right : 2.5px;
+    	padding-left : 5px;
+    	padding-right : 5px;
     }
     
     nav .nav_links a:hover{
@@ -60,7 +59,7 @@
         transition-property : box-shadow;
     	transition-duration : 3s;
     	transition-timing-function : linear;
-    }	
+    }
 /***************************************FIRST SECTION************************************/	
     .first_section{
         width : 100%;
@@ -85,7 +84,7 @@
 /************************************SECOND SECTION************************************/
     .second_section{
     	width : 100%;
-        height : 375vh;
+        height : 100%;
     	background-color : #f3efff;
     }
     .second_section_flex{
@@ -104,23 +103,27 @@
     	grid-template-columns : repeat(1, 1fr);
     	margin-bottom : 1%;
     	box-shadow: 1px 1px 3px 3px #3e3e3e0c;
-    	grid-auto-rows: 50vh;
+    	/* grid-auto-rows: 0; */
     }
     .second_section .left_alpha_item{
     	grid-column : 1/1;
     	grid-row : 1/2;
     	position : relative;
+		height : 500px !important;
     }
     .second_section .right_alpha_item{
     	grid-column : 1/1;
     	grid-row : 3/4;
         padding-top : 0;	
     	padding-left : 20px;
+		height : 550px !important;
+		
     }
     .second_section .bottom_alpha_item{
     	grid-column: 1/1;
     	grid-row :  5/6;
     	padding-left : 20px;
+		height : 300px !important;
     }
     .second_section .product_name{
     	font-weight : 600;
@@ -130,7 +133,7 @@
     	padding-bottom : 15px;
     }
     .second_section table{
-    	width : 300px;
+    	width : 320px;
     	border : solid 1px #000000;
     }
     .second_section tr{
@@ -240,7 +243,7 @@
     }
     
     .second_section .bottom_alpha_item ul li {
-    	font-size : 1.15rem;
+    	font-size : 1rem;
         color : var(--alpha_text_color);
     }
     
@@ -276,13 +279,14 @@
     	}
     }    
     .second_section .product_image{
-    	width : 100%;
+    	width : 90%;
+		left : 5%;
     	position : absolute;
     	/* display : inline-block; */
     }
     
     .second_section .product_image_A{
-    	width : 85%;
+    	width : 90%;
 		margin-left : 5%;
     }
     
@@ -326,9 +330,10 @@
     .second_section_flex>.beta_item{
     	width : 100%;
     	background : #ffffff;
-    	height : 110vh;	
+    	height : 700px;	
     	padding : 30px;
-        box-shadow: 1px 1px 3px 3px #3e3e3e0c;	
+        box-shadow: 1px 1px 3px 3px #3e3e3e0c;
+		margin : 0 0 10px 0;
     }
     
     
